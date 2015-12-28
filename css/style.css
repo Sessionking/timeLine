@@ -1,0 +1,65 @@
+.container {
+    position: relative;
+    width: 70%;
+    margin: 100px auto 10px auto;
+    padding: 20px;
+    font-family: "Arial Hebrew Scholar";
+    font-size: 20px;
+    background-color: #f5f5f5;
+}
+/*画直线*/
+.time-line {
+    position: absolute;
+    width: 2px;
+    top: 10px;
+    background: #6daaaa;
+    bottom: 10px;
+    left: 139px;
+}
+/*时间*/
+.container .container-row span {
+    position: absolute;
+    margin-top: 51px;
+    margin-left: 19px;
+}
+/*圆点*/
+.container .container-row .circle {
+    position: absolute;
+    display: inline-block;
+    margin-left: 115px;
+    margin-top: 55px;
+    width: 10px;
+    height: 10px;
+    background-color: #23e5ae;
+    border-radius: 5px;
+}
+/*内容*/
+.container .container-row .container-content {
+    display: inline-block;
+    margin-left: 14.7%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 70%;
+    height: 100px;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+/*三角形*/
+.container .container-row .container-content:before {
+    content: ' ';
+    position: absolute;
+    left: 138px;
+    margin-top: 15px;
+    width: 0px;
+    height: 0px;
+    border: 14px solid transparent;
+    border-right-color: #fff;
+}
+
+.footer{
+    margin: 15px auto 10px auto;
+    width: 130px;
+    font-family: Arial;
+}
